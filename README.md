@@ -6,7 +6,8 @@ Este proyecto consiste en una página web de una compañía de seguros peruana q
 
 ## Imagen del proyecto
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/Imagenfinal1.png)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/imagenfinal2.png)
 
 ## Usuarios y Objetivos del producto
 
