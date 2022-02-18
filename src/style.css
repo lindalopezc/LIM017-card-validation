@@ -1,0 +1,109 @@
+*{
+    background-color:white;
+    margin: 0; 
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: none;
+}
+header{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-top: 25px;
+    font-family: "Lato", Arial, sans-serif;
+    padding-bottom: 20px;
+    text-decoration:none;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    margin: 0.5px;
+}
+.nav-Buttons{
+    font-family: "Lato", Arial, sans-serif;
+    color:#101249;
+    text-decoration:none;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+#loginButton{
+    text-align: center;
+    font-size: 15px;
+    background-color:white;
+    color:#4F4FFF;
+    border-radius: 40px;
+    width: 169px;
+    height: 40px;
+    margin: 0.5px;
+    border-width: 2px; /*Ancho de borde*/
+    border-style: solid;/*Esto es para que aparezca el borde*/
+    border-color:#4F4FFF;
+    font-family: "Lato", Arial, sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+#showText{
+    color:#101249; 
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: -0.6px;
+    margin-top: 16px;
+    margin-left: 200px;
+    text-align: left;
+    font-family: "Lato", Arial, sans-serif;
+}
+#left{
+    margin-top: 60px;
+    height: 100vh;
+    width:50% ;
+    color:#101249;
+    font-family:"Lato", Arial, sans-serif;
+    text-align: center;
+}
+#presentation{
+    display:block;
+}
+
+#card{
+    color:#101249;
+    display:none;
+}
+#sections{
+    display: flex;
+}
+#right{
+    height:100vh ;
+    width:50% ;
+    background-size: cover;
+    background-position: center ;
+    background: url(imagen1.jpg);
+  }  
+#options{
+    display: none;
+}
+.option{
+    text-align: center;
+    font-size: 15px;
+    background-color:#FF1C44 ;
+    color:white;
+    border-radius: 40px;
+    width: 169px;
+    height: 48px;
+    margin-left: 30px; /*Para que no me salga muy pegado a la izquierda*/
+    border-color:#FF1C44;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2px;
+  }
+  

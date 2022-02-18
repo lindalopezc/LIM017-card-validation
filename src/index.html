@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Rimac Seguros</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="#"><img src="rimac1.png" alt></a></li>
+      <li><a class="nav-Buttons" href="#"> Nuestros seguros </a></li>
+      <li><a class="nav-Buttons" href="#"> Promociones </a></li>
+      <li><a class="nav-Buttons" href="#"> Ayuda </a></li>
+      <li><a class="nav-Buttons" href="#"> Contacto </a></li>
+      <li><a class="nav-Buttons" href="#"> ¿Qué estás buscando? </a></li>
+      <li><a class="nav-Buttons" href="#"> 🔍 </a></li>
+      <li><a class="nav-Buttons" href="#"> 🚨 </a></li>
+      <li><a class="nav-Buttons" href="#">
+          <button id="loginButton" href="#">👤INICIAR SESIÓN</button></a></li>
+    </ul>
+  </header>
+  <main>
+    <section id="sections">
+      <div id="left">
+        <div id = "presentation">
+          <p><strong>SEGURO PERSONALIZABLE</strong></p><br>
+          <h3 id="showText">Salud Flexible<br>desde s/49 <br> al mes. <br><br></h3>
+          <p><strong>TOMA EL CONTROL DE TU SEGURO</strong></p><br>
+          <p><button class="option" id="buyButton">COMPRAR</button><br></p>
+        </div>
+        <div id="card">
+          <h2>VAMOS A VERIFICAR SU TARJETA</h2><br>
+          <img src="card4.png"><br><br>
+          <h2 id="message">Ingrese sus datos:</h2><br>
+          <label> Nombre y Apellido:<input type="text" placeholder = "Ej: Linda López"><br><br></label>
+          <label> Correo electrónico:<input type="text" placeholder="Ej: lindalopez@gmail.com"><br><br></label>
+          <label> Número de tarjeta:<input type="number" placeholder="Ej: 455895565626259" id="cardNumber"><br><br></label>
+          <button class="option" id="cardButton">Validar tarjeta</button>
+        </div>
+      </div> 
+      <div id="right">
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"> </script>
+</body>
+
 </html>
