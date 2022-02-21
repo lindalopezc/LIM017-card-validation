@@ -1,16 +1,13 @@
 /* eslint-disable no-console */
 const validator = {
   isValid:  function(card){
-    let arrayOfCard = Array.from(card);
+    const cardArray = card.split('');
     let newArray = []; 
     let totalSum = 0;
-    for (let i = 0; i < arrayOfCard.length; i++){
-        newArray.push(parseInt(arrayOfCard[i]));
+    for (let i = 0; i < cardArray.length; i++){
+        newArray.push(parseInt(cardArray[i]));
     }
-    newArray.reverse();
-    
-    console.log('Estos son los dígitos invertidos: ');
-    console.log(newArray);       
+    newArray.reverse();     
     
     for(let i = 0; i< newArray.length ; i++){
         if (i%2 == 1){
@@ -19,13 +16,9 @@ const validator = {
             newArray[i] = newArray[i]-9;
             }    
         }
-       totalSum = totalSum + newArray[i];
+       totalSum += newArray[i];
     }
-    console.log('Al duplicar las cifras de lugar par y sumar los digitos si son mayores a 10, se obtiene :');
-    console.log(newArray);
-    console.log('La suma de los dígitos de este arreglo es:');
-    console.log(totalSum);
-        
+
     if (totalSum % 10 == 0){
         return true;
     }  
@@ -34,19 +27,16 @@ const validator = {
     }
   },
   maskify:function(card){
-
-    const arrayOfCard = Array.from(card);
-    let hiddenCard = '';
-    if(arrayOfCard.length <= 4){
-      hiddenCard = arrayOfCard.join('');
+    if(card.length > 4){
+      const cardArray = card.split('');
+      for(let i = 0; i < cardArray.length - 4; i++){
+      cardArray[i] = '#';
+      }
+      return cardArray.join('');
     }
     else{
-      for(let i = 0; i < arrayOfCard.length-4; i++){
-      arrayOfCard[i] = '#';
-      }
-      hiddenCard = arrayOfCard.join('');
+      return card;
     }
-    return hiddenCard;
   }
 }
 export default validator;
