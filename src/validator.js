@@ -37,6 +37,17 @@ const validator = {
     else{
       return card;
     }
+  },
+  getIssuer: function(card){
+    if(card[0]==4){
+      return 'VISA';
+    }
+    else if (card[0]==5){
+      return 'MASTERCARD';
+    }
+    else{
+      return '';
+    }
   }
 }
 export default validator;

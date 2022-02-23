@@ -2,50 +2,93 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Rimac Seguros</title>
+  <title>Vital Seguros</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="icon.png" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="#"><img src="rimac1.png" alt></a></li>
-        <li><a href="#"> Nuestros seguros </a></li>
-        <li><a href="#"> Promociones </a></li>
-        <li><a href="#"> Ayuda </a></li>
-        <li><a href="#"> Contacto </a></li>
-        <li><a href="#"> ¿Qué estás buscando? </a></li>
-        <li><a href="#"> 🔍 </a></li>
-        <li><a href="#"> 🚨 </a></li>
-        <li><a href="#"><button id="loginBtn" href="#">👤INICIAR SESIÓN</button></a></li>
+        <img id="imagen" src="logo.png">
+        <li><a href="#secondView"> Nuestros seguros </a></li>
+        <li><a href="#thirdView"> Promociones </a></li>
+        <li><a href="#fourthView"> Contacto </a></li>
+        <li><a href="#loginView"><button id="loginBtn">👤Iniciar sesión</button></a></li>
       </ul>
   </nav>
   </header>
   <main>
-    <section id="sections">
-      <div id="left">
-        <div id = "firstSection">
-          <p>SEGURO PERSONALIZABLE</p>
-          <p id="text">Salud Flexible desde s/49 al mes.</p>
-          <p>TOMA EL CONTROL DE TU SEGURO</p><br>
-          <p><button class="btn" id="buyBtn">COMPRAR</button><br></p>
+    <section id="firstView">
+      <div id="firstViewLeft">
+        <div id = "initialView">
+          <p>Estamos contigo para cuidar a quienes más amas</p>
+          <p id="text"> Protege tu salud y la de tu familia desde s/79 al mes.</p>
+          <p>Adquiere tu seguro en un solo CLICK</p><br>
+          <p><button class="btn" id="buyBtn">Comprar</button></p>
         </div>
-        <div id="secondSection">
-          <h1>VAMOS A VERIFICAR SU TARJETA</h1><br>
-          <img src="card4.png"><br>
-          <h2 id="message">Ingrese sus datos:</h2><br>
-          <label> Nombre y Apellido: <input type="text" placeholder = "Ej: Linda López"><br><br></label>
-          <label> Correo electrónico: <input type="text" placeholder="Ej: lindalopez@gmail.com"><br><br></label>
-          <label> Número de tarjeta: <input type="number" placeholder="Ej: 455895565626259" id="cardNumber"><br><br></label>
-          <button class="btn" id="validationBtn">Validar tarjeta</button>
+        <div id="payView">
+          <h1>¡Adquiere tu seguro en línea!</h1>
+          <img src="card4.png">
+          <h2 id="message">Ingrese sus datos:</h2>
+          <form>
+          <label> Nombre del titular: <input type="text" placeholder = "Ej: Linda López"><br></label>
+          <label> Correo electrónico: <input type="text" placeholder="Ej: lindalopez@gmail.com"><br></label>
+          <label> Número de tarjeta: <input type="number" placeholder="Ej: 455895565626259" id="cardNumber"><br></label>
+          <input type="reset" value="Validar tarjeta" class="btn" id="validationBtn"></input>
+        </form>
+        </div>
+        <div id="loginView">
+          <h1>Inicia sesión o regístrate</h1>
+          <img src="logo.png"><br>
+          <label > Nombre y Apellido: <input id="userName" type="text" placeholder = "Ej: Linda López"><br></label>
+          <label > Correo electrónico: <input type="text" placeholder="Ej: lindalopez@gmail.com"><br></label>
+          <label > Contraseña: <input type="password" placeholder="***************"><br></label>
+          <button class="signIn">Iniciar sesión</button><br>
+          <button class="signIn">Registrarme</button><br>
+          <p id="welcomeMessage"></p>
         </div>
       </div> 
-      <div id="right"><!--En esta sección irá la imagen de fondo-->
+      <div id="firstViewRight"><!--En esta sección irá la imagen de fondo-->
+      </div>
+    </section>
+    <section id="secondView">
+      <div id="secondViewLeft">
+        <img src="imagen2.jpg">
+      </div>
+      <div id="secondViewRight">
+        <h1>Nuestros Seguros</h1><br>
+          <p>🔷SOAT</p>
+          <p>🔷Seguros de Vida</p>
+          <p>🔷Seguros Vehiculares</p>
+          <p>🔷Seguros para empresas</p>
+          <p>🔷Seguros de hogar </p>
+        </ul><br>
+        <a href="#payView"><button class ="btn" id="buyBtn2">Comprar</button></a>
+      </div>
+    </section>
+    <section id="thirdView">
+      <h1>¡Compra tu seguro en línea y participa en el sorteo de un viaje doble a CANCÚN!</h1>
+      <img id="travelImg" src="imagen4.jpg"><br>
+      <a href="#payView"><button class ="btn" id="buyBtn3">Comprar</button></a>
+    </section>
+    <section id="fourthView">
+      <div id="fourthViewLeft">
+        <h1>Contáctanos</h1>
+          <label> Nombre y Apellido: <input type="text" placeholder = "Ej: Linda López"><br></label>
+          <label> Correo electrónico: <input type="text" placeholder="Ej: lindalopez@gmail.com"><br></label>
+          <label> Número de teléfono: <input type="number" placeholder="Ej: +51949526260"><br></label>
+          <label>Mensaje</label><br>
+          <textarea name="descripcion" rows="8" cols="30"></textarea><br>
+          <button class="btn" id="sendBtn">Enviar</button><br>
+          <p id="contactMessage"></p>
+      </div>
+      <div id="fourthViewRight">
       </div>
     </section>
   </main>
-  <footer>Copyright Linda López Ramos </footer>
+  <footer>©Copyright. Todos los derechos reservados, Autor: Linda López Ramos.</footer>
   <script src="index.js" type="module"> </script>
 </body>
 

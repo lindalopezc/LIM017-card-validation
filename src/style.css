@@ -1,95 +1,181 @@
 *{
     background-color:white;
-    margin: 2px 10px 2px 10px;
+    margin: 10px;
     box-sizing: border-box;
-    text-decoration: none;
     box-shadow: none;
+    text-decoration:none;
 }
 header{
     font-size: 16px;
     font-weight: bold;
-    line-height: 20px;
     letter-spacing: 0.2px;
-    text-decoration:none;
-    font-family: "Lato", Arial, sans-serif; 
+    font-family: 'Poppins', sans-serif;
+ 
 }
-ul{
-     text-align: center;
-     margin: 20px;
+#imagen{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    margin-right: 500px;
+    margin-left: 100px;
+    margin-bottom: 0;
 }
-li{
-    color:#101249;
+a{
+    color:#1f227c;
+    font-family: 'Poppins', sans-serif;
+}
+#nav{
+    align-items: right;
+}
+
+li{  
     display: inline;
-    padding-left: 1px;
-    padding-right: 1px;
-    
+    margin-right: 0.5px;
 }
-#right{
+/*Primera vista de la página*/
+#firstView{
+    display: flex;
+}
+#firstViewRight{
     height:100vh ;
     width:50% ;
     background-size: cover;
     background-position: center ;
     background: url(imagen1.jpg);
 } 
-#left{
-    margin-top: 50px;
+#text{
+    color:#101249;
+    margin: 50px 20px 50px 100px;
+    width: 500px;
+    font-size: 58px;
+    font-weight: 900;
+    font-family: sans-serif;
+    line-height: 60px;
+    letter-spacing: 0.6px;
+    text-align: left;
+}
+#firstViewLeft{
+    color:#101249;
     height: 100vh;
     width:50% ;
-    color:#101249;
-    font-family:"Lato", Arial, sans-serif;
-    text-align: center;
+    font-family:'Poppins', sans-serif;
     font-weight: bold;
+    text-align: center;
 }
-#text{
-    width: 500px;
-    color:#101249; 
-    font-size: 55px;
-    font-weight: 900;
-    line-height: 44px;
-    letter-spacing: 0.6px;
-    margin: 50px 20px 50px 150px;
+#loginView{
+    margin-top: 100px;
+    display:none;
+}
+#welcomeView{
+    display:none;
+}
+#initialView{
+    color:#171a69;
+    font-size: 20px;
+    margin-top: 50px;
+    display:block;
+}
+#payView{
+    margin-top: 20px;
+    display:none;
+}
+#welcomeMessage{
+    font-size: 30px;
+}
+
+/*Segunda vista de la página*/
+
+#secondView{
+    display: flex;
+}
+#secondViewLeft{
+    height:90vh ;
+    width:60% ;
+}
+#secondViewRight{
+    
+    color:#101249;
+    height: 90vh;
+    width:40% ;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
     text-align: left;
-    font-family: "Lato", Arial, sans-serif;
+    font-size: 18px;
+    padding: 110px 20px 60px 100px;
+}
+
+/*Tercera vista de la página*/
+
+#thirdView{
+    color:#101249;
+    height: 100vh;
+    width: auto;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+/* Vista número 4 */
+
+#fourthView{
+    display: flex;
+}
+#fourthViewLeft{
+    width: 50%;
+    height: 100vh;
+    color:#101249;
+    height: 100vh;
+    width:50% ;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+#fourthViewRight{
+    width: 50%;
+    height: 100vh;
+    background: url(imagen5.jpg);
+    background-size: cover;
+    background-position: center ;
 }
 
 #loginBtn{
-    text-align: center;
-    font-size: 15px;
     background-color:white;
-    color:#4F4FFF;
-    border-radius: 40px;
-    width: 169px;
-    height: 40px;
-    margin: 0.5px;
-    border-width: 2px; 
-    border-style: solid;
-    border-color:#4F4FFF;
+    color :#4F4FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
     font-family: "Lato", Arial, sans-serif;
     letter-spacing: 0.2px;
-    font-weight: bold;
+    width: 170px;
+    height: 45px;
+    border-radius: 40px;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: #4F4FFF;
+    margin: 0;
 }
-#firstSection{
-    display:block;
-}
-#secondSection{
-    color:#101249;
-    display:none;
-}
-#sections{
-    display: flex;
-}
-.btn{
+
+.btn, .signIn{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     background-color:#FF1C44 ;
     color:white;
     border-radius: 40px;
-    width: 169px;
-    height: 48px;
-    margin-left: 30px; 
+    width: 175px;
+    height: 52px;
     border-color:#FF1C44;
     border-style: none;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.2px;
+    align-items: center;
 }
-  
+
+#travelImg{
+    width: 80%;
+    height: 70%;    
+}
