@@ -25,8 +25,8 @@ Los seguros son importantes porque son herramientas que nos protegen de posibles
 ### Feedback
 Mis compañeras propusieron cambiar el diseño de la página y considerar colocar publicidad de la empresa al ingresar al sitio web para que el usuario se anime a adquirir el seguro, es por ello que se planteó tener 2 páginas.
 En la primera página se agregó una barra de navegación y un anuncio propio para adquirir un seguro de vida. Cuando el usuario da click en la opción "COMPRAR", se redirige a la vista de pago, donde aparece un ícono de tarjeta de crédito y debajo campos para que el usuario ingrese sus datos.
-![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto2.png)
-![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto1.png)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto2.jpg)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto1.jpg)
 ## Desarrollo
 El desarrollo del proyecto fue en base a pequeños proyectos que me permitan llegar al proyecto final. Los cuales son:
 
