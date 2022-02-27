@@ -1,13 +1,13 @@
-# Card Validation
+# Vital Seguros-Pago en línea
 
 ## Resumen del proyecto
 
-Este proyecto consiste en una página web de una compañía de seguros que brinda a los ciudadanos todo tipo de seguros, otorgando la facilidad de adquirirlos con pago en línea. Se tomó como referencia la temática de la página web de la compañía de seguros peruana "RIMAC".
+Este proyecto consiste en una página web de una compañía de seguros que brinda a los ciudadanos todo tipo de seguros, otorgando la facilidad de comprarlos en línea a través de su tarjeta de crédito.
 
 ## Imagen del proyecto
 
-![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/Imagenfinal1.png)
-![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/imagenfinal2.png)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/seccion1.png)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/seccion2.png)
 
 ## Usuarios y Objetivos del producto
 
@@ -20,11 +20,13 @@ Los seguros son importantes porque son herramientas que nos protegen de posibles
 ## Propuesta
 
 1. Inicialmente se creó un boceto a mano de una página web de una sola página, teniendo esta 2 secciones: Al lado izquierdo una imágen de una tarjeta de crédito y debajo unos campos para que el usuario escriba sus datos escenciales, seguido del espacio para que el usuario coloque su número de tarjeta y pueda ver si es válida o no.
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto1.png)
 
 ### Feedback
 Mis compañeras propusieron cambiar el diseño de la página y considerar colocar publicidad de la empresa al ingresar al sitio web para que el usuario se anime a adquirir el seguro, es por ello que se planteó tener 2 páginas.
 En la primera página se agregó una barra de navegación y un anuncio propio para adquirir un seguro de vida. Cuando el usuario da click en la opción "COMPRAR", se redirige a la vista de pago, donde aparece un ícono de tarjeta de crédito y debajo campos para que el usuario ingrese sus datos.
-
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto2.png)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto1.png)
 ## Desarrollo
 El desarrollo del proyecto fue en base a pequeños proyectos que me permitan llegar al proyecto final. Los cuales son:
 
