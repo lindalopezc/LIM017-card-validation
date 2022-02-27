@@ -20,7 +20,7 @@ Los seguros son importantes porque son herramientas que nos protegen de posibles
 ## Propuesta
 
 1. Inicialmente se creó un boceto a mano de una página web de una sola página, teniendo esta 2 secciones: Al lado izquierdo una imágen de una tarjeta de crédito y debajo unos campos para que el usuario escriba sus datos escenciales, seguido del espacio para que el usuario coloque su número de tarjeta y pueda ver si es válida o no.
-![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto1.png)
+![Imagen text](https://github.com/lindalopezc/LIM017-card-validation/blob/main/src/boceto1.jpg)
 
 ### Feedback
 Mis compañeras propusieron cambiar el diseño de la página y considerar colocar publicidad de la empresa al ingresar al sitio web para que el usuario se anime a adquirir el seguro, es por ello que se planteó tener 2 páginas.
